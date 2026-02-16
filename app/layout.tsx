@@ -1,11 +1,11 @@
 import '../styles/globals.css'
-import { Inter } from '@next/font/google'  // Old font import pattern
+import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'NextJS App 04',
-  description: 'Sample NextJS 14.1 application',
+  description: 'Sample NextJS 15 application',
 }
 
 export default function RootLayout({
