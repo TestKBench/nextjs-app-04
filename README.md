@@ -1,16 +1,15 @@
 # NextJS App 04
 
-Next.js **14.1.0** with App Router using legacy font optimization.
+Next.js **15.3.4** with App Router using modern font optimization.
 
 ## Current Version
-- **Next.js**: 14.1.0
-- **React**: 18.2.0
+- **Next.js**: 15.3.4
+- **React**: 19.0.0
 
-## Breaking Changes for Next.js 15
+## Migration from Next.js 14.1.0
 
-### 1. Font Import (PRIMARY ISSUE)
-- Uses old `@next/font/google` package
-- **Fix**: Change to `next/font/google`
+### Font Import (MIGRATED)
+- Migrated from `@next/font/google` to `next/font/google`
   ```tsx
   // Old:
   import { Inter } from '@next/font/google'
